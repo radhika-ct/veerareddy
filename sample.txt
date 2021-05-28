@@ -1,0 +1,9 @@
+---
+- host: local
+  tasks:
+  - name: create a file and exigute file content
+  file:
+    dest: "/et/ansible/hosta/sample.txt"
+    sate: touch
+    content: radhika gali
+             chandrika
