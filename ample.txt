@@ -1,0 +1,7 @@
+---
+- host: local
+  tasks:
+  - name: create a new file
+  file:
+    path: "/etc/lib/docker/sample.txt"
+    sate: touch
