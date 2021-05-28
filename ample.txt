@@ -6,3 +6,4 @@
     path: "/etc/lib/docker/sample.txt"
     sate: touch
     fff
+    ffg
